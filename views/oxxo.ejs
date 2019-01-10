@@ -1,0 +1,31 @@
+<% include partials/header %>
+
+<div class="container">
+    <header class="jumbotron">
+        <div class="container">
+            <h1>Oxxo</h1>
+            <p>Visualiza tus referencias de pago generadas aqui</p>
+            <p>
+                <a class="btn btn-primary btn-large" href="/oxxo/new">Add new oxxo order</a>
+                <a class="btn btn-primary btn-large" href="/">Go HOME</a>
+            </p>
+            <p>
+            </p>
+        </div>
+    </header>
+    
+
+    <div class="row text-center" style="display:flex; flex-wrap:wrap;">
+        <% oxxo.forEach(function(oxxo){ %>
+            <div class="col-md-3 col-sm-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4><%= oxxo.ref %></h4>
+                    </div>
+                </div>
+            </div>
+        <% }); %>
+    </div>  
+</div>
+
+<% include partials/footer %>

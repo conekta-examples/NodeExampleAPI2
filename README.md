@@ -47,7 +47,7 @@ npm install
 
 Step 3. Change your API keys
 
-You nee
+You need
 
 Change your private Conekta API key
 

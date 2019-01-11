@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 You will need an actualized version of node and npm installed. 
 
-In case you do not have the environment with node and npm, please refer to oficial documentation: 
+In case you do not have the environment with node and npm, please refer to official documentation: 
 
 ```
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm

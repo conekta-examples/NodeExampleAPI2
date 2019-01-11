@@ -1,5 +1,5 @@
 var conekta = require('conekta');
-conekta.api_key = 'key_aFyhrz5wU7qyQfaxfy5p6g';
+conekta.api_key = 'YOUR_API_KEY';
 conekta.api_version = '2.0.0';
 
 var express = require("express");
